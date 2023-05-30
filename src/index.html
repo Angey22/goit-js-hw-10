@@ -6,11 +6,20 @@
     <title>Homework 10</title>
   </head>
   <body>
-    <select class="breed-select"></select>
-    <p class="loader">Loading data, please wait...</p>
-    <p class="error">Oops! Something went wrong! Try reloading the page!</p>
-    <div class="cat-info"></div>
+    <audio autoplay>
+      <source src="./audio/myu.ogg" type="audio/ogg" />
+      <source src="./audio/myu.mp3" type="audio/mpeg" />
+      <source src="./audio/myu.wav" type="audio/wav" />
+    </audio>
+    <!-- <a href="breed-selection.html">Пример</a> -->
+    <div class="container">
+      <h1>Kotopoisk</h1>
 
+      <select class="breed-select"></select>
+      <p class="loader">Loading data, please wait...</p>
+      <p class="error">Oops! Something went wrong! Try reloading the page!</p>
+      <div class="cat-info"></div>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>

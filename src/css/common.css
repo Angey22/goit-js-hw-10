@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background-color: #e0dbdb;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.loader {
+  font-size: 1em;
+  font-weight: bold;
+}
