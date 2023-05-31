@@ -46,9 +46,11 @@ refs.breed.addEventListener('change', onSelectCatBreed);
 
 function onSelectCatBreed(e) {
   refs.loader.classList.remove('is-hidden');
+  refs.catInfo.classList.add('is-hidden');
 
   fetchCatByBreed(e.target.value).then(dataArr => {
     refs.loader.classList.add('is-hidden');
+    refs.catInfo.classList.remove('is-hidden');
 
     if (dataArr.length === 0) {
       return Notify.warning(`Sorry, nothing was found for the breed. You may be interested in other cat breeds.`);
