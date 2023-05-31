@@ -1,5 +1,4 @@
-//! API_KEY - чужой!
-const API_KEY = 'live_3Mnea8iNtopVC0hvGsDfEMtgOKxjswZlqkRz9krsSz70qvMXA4BaQRqrC91mtiVf';
+const API_KEY = 'live_37U8ytbeoItoZp7n7jB5LsCHhh6mH2w1KRgH8dn1oM4BfG3pE0efY30RoI3vCpx0';
 
 const BASE_URL = 'https://api.thecatapi.com/v1';
 
