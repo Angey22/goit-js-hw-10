@@ -10,7 +10,7 @@ const options = {
 }
 
 export function fetchBreeds() {
-  fetch(`${BASE_URL}/breeds`, options).then(response => {
+  return fetch(`${BASE_URL}/breeds`, options).then(response => {
     if (!response.ok) {
           throw new Error('Failed to fetch breeds');
     }
@@ -20,7 +20,7 @@ export function fetchBreeds() {
 }
 
 export function fetchCatByBreed(breedId) {
-  fetch(`${BASE_URL}/images/search?breed_ids=${breedId}`, options).then(response => {
+  return fetch(`${BASE_URL}/images/search?breed_ids=${breedId}`, options).then(response => {
     if (!response.ok) {
       throw new Error('Failed to fetch data for cat');
     }

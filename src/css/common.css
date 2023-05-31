@@ -18,4 +18,18 @@ body {
 .loader {
   font-size: 1em;
   font-weight: bold;
+  margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.breed-select {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 5px;
+  font-size: 1em;
 }
