@@ -1,0 +1,8 @@
+//! К кому в код подглядывал при выполнении этого ДЗ:
+// https://github.com/groats23/goit-js-hw-10
+
+// https://github.com/AleksandrYemelianov/goit-js-hw-10/tree/main
+
+// https://github.com/WladekJagiello/goit-js-hw-10
+
+// https://github.com/Vitalii1991/goit-js-hw-10
